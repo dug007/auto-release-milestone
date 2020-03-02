@@ -1,6 +1,6 @@
 name: 'Auto Release Milestone'
 description: 'Drafts a GitHub release based on a newly closed milestone.'
-author: 'Enrico Campidoglio'
+author: 'dug007'
 inputs:
   repo-token:
     description: 'The GITHUB_TOKEN used to authenticate to the current repository'
