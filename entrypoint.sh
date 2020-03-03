@@ -1,7 +1,7 @@
 #!/bin/bash
 set -u
 
-repo_token=$1 #first parameter passed to shell script from container (see Dockerfile args)
+repo_token=$1 #first parameter passed to shell script from container [see Dockerfile args]
 
 if [ "$GITHUB_EVENT_NAME" != "milestone" ]; then
   echo "::debug::The event name was '$GITHUB_EVENT_NAME'"
